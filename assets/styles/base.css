@@ -1,16 +1,47 @@
 
 
-
-body{
-    background-color: rgb(240,240,240);
-    padding: 100px 100px;
+body {
+    background-color: #FFF;
+    box-sizing: border-box;
+    margin: 100px 200px;
 }
 
 
-p, figure{
-    margin-bottom: 2rem;
+h1 {
+    margin-bottom: 0.6 rem;
 }
 
-dt{
+h2 {
+    margin-bottom: 1.2rem;
+}
+
+p, dd {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+figure {
+    margin-bottom: 25px;
+}
+
+
+dt {
     margin-top: 2rem;
+}
+
+hr {
+    color: gray;
+    background-color: gray;
+    width: 240px;
+    height: 5px; 
+    margin-left: 0;
+    margin-bottom: 25px;
+}
+
+
+figcaption {
+    color: gray;
+    font-size: 0.6rem;
+    width: 300px;
+    margin-top: 30px;
 }
