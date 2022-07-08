@@ -27,6 +27,7 @@ tr, th {
 
 th {
     background-color: orange;
+    text-align: left;
 }
 
 form {
