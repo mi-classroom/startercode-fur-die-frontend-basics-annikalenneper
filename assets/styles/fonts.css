@@ -7,7 +7,6 @@
         
 }
 
-
 h1, h2, h3{
     font-family: "IBM-Plex";
     font-style: normal;
@@ -26,11 +25,22 @@ h2{
     letter-spacing: 0.1px;
 }
 
-h3, dt{
-    font-size: 1.25rem;
+p {
+    line-height: 1.5rem;
 }
 
-cite {
+dt{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+cite, figcaption {
     color: grey;
     font-style: normal;
+}
+
+blockquote {
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
 }

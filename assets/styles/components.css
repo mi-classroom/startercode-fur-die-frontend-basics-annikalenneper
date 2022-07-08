@@ -1,13 +1,35 @@
 
-.section-2 {
-    background-color: lightgray;
+
+figure {
+    text-align: center;
 }
 
-.h1-paragraph,
-.last-paragraph {
-    margin-bottom: 40px;
+figure.zitat {
+    color: orange;
+    margin: 2rem;
+    text-align: left;
 }
 
-.last-paragraph {
-    ma
+figcaption {
+    width: 70%;
+    margin-top: 1rem;
 }
+
+table {
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+tr, th {
+    margin: 2rem;
+}
+
+th {
+    background-color: orange;
+}
+
+form {
+    margin: 0 auto;
+}
+

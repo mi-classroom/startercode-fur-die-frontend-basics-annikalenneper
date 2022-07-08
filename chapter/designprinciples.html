@@ -15,11 +15,13 @@
     </head>
 
     <body>
-        <h1>Design Principles</h1>
+        
+        <div class="section-1">
+            <h1>Design Principles</h1>
 
-        <hr>
+            <hr>
 
-        <div>
+            
             <p class="h1-paragraph">The challenge is to develop an application that tries to increase the user’s participation in team sports through
             online communities. Several factors play into the success of this concept. It is not possible to achieve this
             goal if the application is not properly designed. To achieve this, design principles of several disciplines are
@@ -31,43 +33,42 @@
             (NORMAN, 2013, P. XIII F.). User experience comprises all aspects of a user’s interaction with a company, its
             services, and its products. The focus and most important goal of good user experience is to meet the user’s
             needs in every aspects. Close cooperation is required between different disciplines, such as engineering,
-            marketing, graphic design, industrial design, and interface design (NORMAN & NIELSEN, N.D.).</p>
+            marketing, graphic design, industrial design, and interface design <cite>(NORMAN & NIELSEN, N.D.)</cite>.</p>
 
-            <div>
-                <figure>
-                    <blockquote>
-                        <p>Good design is actually a lot harder to notice than poor design, in part because good designs fit our
-                        needs so well that the design is invisible, serving us without drawing attention to itself. Bad design,
-                        on the other hand, screams out its inadequacies, making itself very noticeable.</p>
-                    </blockquote>
-                    <figcaption>Don Norman</figcaption>
-                </figure>
-            </div>
+                
+            <figure class="zitat">
+                <blockquote>
+                    <p>Good design is actually a lot harder to notice than poor design, in part because good designs fit our
+                    needs so well that the design is invisible, serving us without drawing attention to itself. Bad design,
+                    on the other hand, screams out its inadequacies, making itself very noticeable.</p>
+                </blockquote>
+                <figcaption><cite>NORMAN, 2013, P. XI</cite></figcaption>
+            </figure>
 
-            <p>User experience captures everything a user experiences while using a given product, from the visuals, the
-            haptics, and the audio to how the product feels. User experience of a product comprises three primary factors:
-            its look, feel, and usability (IXDF - UX DESIGN, N.D.) (→ FIG. 04).</p>
+                <p>User experience captures everything a user experiences while using a given product, from the visuals, the
+                haptics, and the audio to how the product feels. User experience of a product comprises three primary factors:
+                its look, feel, and usability <cite>(IXDF - UX DESIGN, N.D.) (→ FIG. 04)</cite>.</p>
 
         </div>
 
         <div class="section-2">
             <figure>
-              <img src="../_data/images/human-centered-design.png" height="400px">
-              <figcaption>FIG. 04: PRIMARY FACTORS OF USER EXPERIENCEOWN ILLUSTRATION BASED ON IXDF - USABILITY, 2020</figcaption>  
+              <img src="../_data/images/user-experience.png" height="400px">
+              <figcaption><cite>FIG. 04: PRIMARY FACTORS OF USER EXPERIENCEOWN ILLUSTRATION BASED ON IXDF - USABILITY, 2020</cite></figcaption>  
             </figure>
             
         </div>
 
     
-        <div>
+        <div class="section-1">
             <p>User Experience Design requires a solid understanding of the psychology and behavior of the user. Understanding
                 how users perceive a product allows user experience designers to iterate their concepts and better achieve the
-                user’s goals. According to Marc Hassenzahl and Sarah Diefenbach’s paper <em>Well-being</em>, <em>Need
-                    Fulfillment</em>, and <em>Experience Design</em>, any positive experience is based on meeting psychological
+                user’s goals. According to Marc Hassenzahl and Sarah Diefenbach’s paper <em>Well-being</em>, <em>Need Fulfillment</em>, 
+                and <em>Experience Design</em>, any positive experience is based on meeting psychological
                 needs. The fulfillment of psychological needs, such as competence, relatedness, popularity, stimulation and
                 security, contributes to the well-being of the user and leads to a pleasant user experience. In experience
-                design, these needs are taken as guidelines and inspiration in the design process (HASSENZAHL & DIEFENBACH,
-                2012, P. 1).</p>
+                design, these needs are taken as guidelines and inspiration in the design process <cite>(HASSENZAHL & DIEFENBACH,
+                2012, P. 1)</cite>.</p>
 
             <p>Some of these needs have already been discussed in Chapter 2.1, but in the following, they are considered from
                 the perspective of emotion, while additional needs are addressed.</p>
@@ -113,14 +114,67 @@
                 Anderson, for example, developed the “User Experience Hierarchy of Needs” model (→ FIG. 05). Rather than
                 focusing on the psychological side of the user needs, this model is based on a product’s maturity process.
                 Anderson proposes that products proceed through six stages of maturity, during which they can grow from a purely
-                functional product, to a product that is meaningful to the user (ANDERSON, 2011, P. 10F.).</p>
+                functional product, to a product that is meaningful to the user <cite>(ANDERSON, 2011, P. 10F.)</cite>.</p>
+      
+            <table>
+                <tr>
+                    <th>Main Focus</th>
+                    <th>Need</th>
+                    <th>Note</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Experience</td>
+                    <td>Meaningful</td>
+                    <td>personal significance</td>
+                <tr>
+                    <td>Pleasurable</td>
+                    <td>memorable experiences</td>
+                </tr>
+                <tr>
+                    <td>Convinient</td>
+                    <td>personal significance</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Tasks</td>
+                    <td>Usable</td>
+                    <td>can be used without difficulty</td>
+                </tr>
+                <tr>
+                    <td>Reliable</td>
+                    <td>is available and accurate</td>
+                </tr>
+                <tr>
+                   <td>Functional</td>
+                   <td>works as programmed</td> 
+                </tr>
+            </table>
 
         </div>
+        
+        <div class=" section-1">
+        
+        <h3>Kommentare</h3>
+
+            <form action="">
+                <label for="fname">Name</label>
+                <input type="text" id="fname"><br>
+                <label for="fmail">Email</label>
+                <input type="text" name="fmail" id="fmail"><br>
+                <label for="user-picture">Upload Image</label>
+                <input type="file" id="userPicture" name="user-picture"><br>
+                <input type="submit"><br>
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description"><br>
+                Do you want your name to be seen in the comments?
+                <label for="anonymous">No</label>
+                <input type="checkbox" id="anonymous" name="anonymous">
+                <label for="with-name">Yes</label>
+                <input type="checkbox" id="with-name" name="with-name">
+
+            </form>
 
 
-        //table
-
-
+        </div>
 
     </body>
 

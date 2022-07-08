@@ -3,9 +3,26 @@
 body {
     background-color: #FFF;
     box-sizing: border-box;
-    margin: 100px 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ 
 }
 
+.section-1 {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section-2 {
+    background-color: lightgray;
+    width: 100%;
+    overflow: hidden;
+}
+
+div {
+    margin-bottom: 4rem;
+}
 
 h1 {
     margin-bottom: 0.6 rem;
@@ -15,33 +32,31 @@ h2 {
     margin-bottom: 1.2rem;
 }
 
+.h1-paragraph {
+    color: gray;
+    margin-bottom: 6rem;
+    overflow: hidden;
+}
+
+
 p, dd {
-    margin-bottom: 1rem;
-    line-height: 1.2;
+    margin-bottom: 2rem;
 }
-
-figure {
-    margin-bottom: 25px;
-}
-
 
 dt {
-    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+dd {
+    margin-left: 0;
 }
 
 hr {
     color: gray;
     background-color: gray;
     width: 240px;
-    height: 5px; 
+    height: 3px; 
     margin-left: 0;
     margin-bottom: 25px;
 }
 
-
-figcaption {
-    color: gray;
-    font-size: 0.6rem;
-    width: 300px;
-    margin-top: 30px;
-}
